@@ -1,0 +1,74 @@
+body {
+	margin: 10px;
+/*	background-color: lightslategray;*/
+	font-family:fantasy;
+    background-image: url("image3.png");
+}
+
+table, th, td {
+	border: 3px solid black;
+	border-collapse: collapse;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: goldenrod;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+th, td {
+	padding: 4px;
+    text-align: center;
+}
+
+th {
+	background-color: goldenrod;
+    text-align: center;
+}
+
+td {
+	background-color: goldenrod;
+    text-align: center;
+}
+
+a.playerButton:link, a.playerButton:visited, a.playerButton:active {
+	color: black;
+	font-size: 1.2em;
+	text-decoration: none;
+	background-color: goldenrod;
+	padding: 5px;
+	border: 1px solid white;
+}
+
+a.playerButton:hover {
+	background-color: red;
+}
+
+form {
+	background-color: goldenrod;
+	border: 1px solid goldenrod;
+	padding: 5px;
+}
+
+p.message {
+	color: red;
+	padding: 4px;
+	border: 1px solid red;
+}
+
+a.order:link, a.order:visited, a.order:active {
+	color: black;
+	text-decoration: none;
+}
+
+a.order:hover {
+	color: red;
+}
+
+p2{
+    text-align: center;
+    color: goldenrod;
+    font-family: fantasy;
+}
